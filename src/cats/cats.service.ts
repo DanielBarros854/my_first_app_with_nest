@@ -1,7 +1,7 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 
-import { UpdateCatDto } from 'src/cats/dto/updateCatDto';
-import { Cat } from 'src/cats/interface/cats.interface';
+import { UpdateCatDto } from './dto';
+import { Cat } from './interface/cats.interface';
 
 @Injectable()
 export class CatsService {

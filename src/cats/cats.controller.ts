@@ -9,9 +9,8 @@ import {
 } from '@nestjs/common';
 import { v4 as uuid } from 'uuid';
 
-import { CreateCatDto } from 'src/cats/dto/createCat.dto';
-import { UpdateCatDto } from 'src/cats/dto/updateCatDto';
-import { Cat } from 'src/cats/interface/cats.interface';
+import { UpdateCatDto, CreateCatDto } from './dto';
+import { Cat } from './interface/cats.interface';
 import { CatsService } from './cats.service';
 
 @Controller('cats')
